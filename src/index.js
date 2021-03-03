@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CardList from './CardList' ;
+import App from './App.js' ;
 import 'tachyons' ;
 import reportWebVitals from './reportWebVitals';
-import {robots} from './robots' ; // destructuring is required when not exporting defaults ... 
+//import {robots} from './robots' ; // destructuring is required when not exporting defaults ... 
 ReactDOM.render(
   <React.StrictMode>
-    <CardList robots = {robots} />,
+    <App />,
   </React.StrictMode>,
   document.getElementById('root')
 );
