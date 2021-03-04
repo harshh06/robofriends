@@ -1,15 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App.js' ;
-import 'tachyons' ;
-import reportWebVitals from './reportWebVitals';
-//import {robots} from './robots' ; // destructuring is required when not exporting defaults ... 
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./containers/App.js";
+import "tachyons";
+import reportWebVitals from "./reportWebVitals";
+//import {robots} from './robots' ; // destructuring is required when not exporting defaults ...
 ReactDOM.render(
   <React.StrictMode>
     <App />,
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
