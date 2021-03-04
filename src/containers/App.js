@@ -46,7 +46,7 @@ class App extends Component {
         .toLowerCase()
         .includes(this.state.searchValue.toLowerCase());
     });
-    if (this.state.robots.length == 0) {
+    if (this.state.robots.length === 0) {
       return <h1 className="tc"> Loading </h1>;
     } else {
       return (
